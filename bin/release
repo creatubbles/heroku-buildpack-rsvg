@@ -3,5 +3,7 @@
 
 cat << EOF
 ---
+config_vars:
+  PATH: $PATH:/app/rsvg
 default_process_types:
 EOF
