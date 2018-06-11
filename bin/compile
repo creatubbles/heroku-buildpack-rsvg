@@ -20,7 +20,6 @@ echo "$BUILD_DIR/rsvg" >> $ENV_DIR/LD_LIBRARY_PATH
 export PATH="$PATH:$/app/rsvg"
 # copy the buildpack to the right place
 cp -r $BIN_DIR/../rsvg $BUILD_DIR
-cp -r $BIN_DIR/../rsvg/* $BUILD_DIR/../bin
 
 # Check for an essential binary to make sure it's installed
 if [ ! `which rsvg-convert` ]; then
