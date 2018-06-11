@@ -37,7 +37,7 @@ echo "\n\n\nWe are here now:"
 pwd
 ls -halF .
 echo "end of debug logs"
-./rsvg-convert test.svg 
+./rsvg-convert test.svg -o test.png
 
 exit 0
 
